@@ -22,8 +22,7 @@ import {
 /**
  * Internal dependencies
  */
-import Sidebar from 'components/sidebar';
-
+import Sidebar from "./../sidebar"
 function BlockEditor({ settings: _settings }) {
 	const [blocks, updateBlocks] = useState([]);
 	const { createInfoNotice } = useDispatch('core/notices');

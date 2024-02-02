@@ -14,10 +14,10 @@ import { ShortcutProvider } from '@wordpress/keyboard-shortcuts';
 /**
  * Internal dependencies
  */
-import Notices from 'components/notices';
-import Header from 'components/header';
-import Sidebar from 'components/sidebar';
-import BlockEditor from 'components/block-editor';
+import Notices from './components/notices';
+import Header from './components/header';
+import Sidebar from './components/sidebar';
+import BlockEditor from './components/block-editor';
 
 function Editor({ settings }) {
 	return (
